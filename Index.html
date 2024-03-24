@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method = "post"> 
+   <input type="date"> <br> <br>
+   <input type="email" placeholder="Escreva um email" > <br> <br>
+   <input type="password" placeholder="Escreva uma Senha"> <br> <br>
+
+   <h1>Dados Pessoais</h1> <br>
+   <input type="text" id = "nome" name = "nome" placeholder="Escreva seu nome"> <br> <br>
+   <input type="text" id = "endereco" name = "endereco" placeholder="Escreva seu endereco"> <br> <br>
+   <input type="text" id = "numero" name = "numero" placeholder="Escreva o numero do seu endereco"> <br> <br>
+   <input type="text" id = "complemento" name = "complemento" placeholder="Escreva um complemento"> <br> <br>
+   <input list="Cidades" name="Cidades" placeholder="Escreva sua Cidade">
+   <datalist id="Cidades" >
+     <option value="Sorocaba">
+     <option value="Votorantim">
+     <option value="Curitiba">
+     <option value="Rio de Janeiro">
+   </datalist> <br> <br>
+   <select id="Estado" name="Estado">
+    <option value = "escolha">Selecione o Estado</option>
+  <option value="SP">SP</option selected>
+  <option value="PR">PR</option>
+  <option value="RJ">RJ</option>
+  <option value="audi">Audi</option>
+</select> <br> <br>
+<input type="text" id = "CEP" name = "CEP" placeholder="Digite seu CEP"> <br> <br>
+
+<input type="radio" id="Masculino" name="Sexo" value="Masculino"  checked>
+<label for="Masculino">Masculino</label><br>
+<input type="radio" id="Feminino" name="Sexo" value="Feminino">
+<label for="Feminino">Feminino</label><br>
+<input type="radio" id="Sem" name="Sexo" value="Sem">
+<label for="Sem">Prefiro nao falar</label> <br> <br>
+
+<input type="checkbox" id="Curso1" name="Curso1" value="ADS">
+  <label for="Curso1"> Estou Cursando ADS</label><br>
+  <input type="checkbox" id="Curso2" name="Curso2" value="Jogos">
+  <label for="Curso2"> Estou Cursando Jogos</label><br>
+  <input type="checkbox" id="Curso3" name="Curso3" value="Gestao de t.i">
+  <label for="Curso3"> Estou Cursando Gestao de T.I</label>
+
+  <br><br>
+
+<input type="radio" id="Presencial" name="Modalidade" value="Presencial"  checked>
+<label for="Presencial">Presencial</label><br>
+<input type="radio" id="EAD" name="Modalidade" value="EAD">
+<label for="EAD">EAD</label><br>
+<input type="radio" id="SemiPresencial" name="Modalidade" value="SemiPresencial">
+<label for="SemiPresencial">Semi Presencial</label> <br>
+<input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
